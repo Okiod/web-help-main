@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Page d'accueil."/>
+	    <title>
+	        Contact Boostage
+	    </title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&display=swap">
+	    <link rel="shortcut icon" href="./assets/img/logo.ico" alt="IconImg"/>
+		<link rel="stylesheet" href="./assets/contact.css">
+	</head>
+	<body>
+	    <header>
+	        <nav class="navbar">
+	            <a href="index.html">
+	                <img src="./assets/img/logo.png" alt="LogoPic" class="logo">
+	            </a>
+	            <div class="nav-links">
+	                <ul>
+	                    <li>
+	                        <a class="main" href="index.html">
+	                            Accueil
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a href="./connexion.php">
+	                            Connectez-vous
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a href="">
+	                            Contactez-nous
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a href="#">
+	                            Support
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <img src="./assets/img/Hamburger_icon.svg.png" alt="menu burger"
+	            class="menu-burger">
+	        </nav>
+	    </header>
+	   	<div class="ptnDeLigneDeSéparation"></div>
+	    <section class="rectangleFond">
+	    	<section class="infosContact">
+	    		<div>
+	    			<h1>
+	    				Nous contacter
+	    			</h1>
+	    			<div class="tel">
+	    				<img src="./assets/img/phoneIcon.png" class="icon" alt="phone.png">
+	    				<h2>
+	    					0 800 260 669
+	    				</h2>
+	    			</div>
+	    			<div class="email">
+	    				<img src="./assets/img/mailIcon.png" class="icon" alt="mail.png">
+	    				<h2>
+	    					support@boostage.com
+	    				</h2>
+	    			</div>
+	    		</div>
+	    		<p class="adresseContact">
+	    			1 rue Descartes
+	    			<br>
+	    			75 005
+	    			<br>
+	    			Paris
+	    		</p>
+	    	</section>
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.5877750393278!2d2.348434325259195!3d48.847256262370166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e672938d43%3A0x847ef63881f9ee38!2s1%20Rue%20Descartes%2C%2075005%20Paris!5e1!3m2!1sen!2sfr!4v1679479801751!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	    </section>
+        <footer>
+            <li>
+                <a href="#" class="hyperlinkFooter">
+                    Mentions légales
+                </a>
+            </li>
+            <label class="barreFooter">
+                |
+            </label>
+            <li>
+                <a href="#" class="hyperlinkFooter">
+                    Politique de confidentialité
+                </a>
+            </li>
+            <label class="barreFooter">
+                |
+            </label>
+            <li>
+                <a href="#" class="hyperlinkFooter">
+                    © Copyright 2023
+                </a>
+            </li>
+        </footer>
+	<script>
+        const menuHamburger = document.querySelector(".menu-burger")
+        const navLinks = document.querySelector(".nav-links")
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+	</body>
+</html>

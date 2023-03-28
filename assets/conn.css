@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Mulish';
+}
+/* HEADER */
+header {
+    position:absolute;
+    padding: 50px;
+    z-index: 2;
+}
+header img {
+    height: 50px;
+}
+header img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* SECTION */
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* RIGHT */
+.right {
+    background-color: #73ba9b74;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    
+}
+.right h1 {
+    margin-top: 23%;
+    font-size: 40px;
+}
+.boutonConnexion {
+    width: 260px;
+    height: 65px;
+    border-radius: 20px;
+    border:none;    
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(116, 223, 116, 0.607);
+    box-shadow: 0px 0px 10px #73ba9b74;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.boutonConnexion:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.inputID, .inputPassword {
+    height: 70px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 100px;
+}
+.inputID::placeholder, .inputPassword::placeholder{
+	padding-left: 10%;
+    font-size: 1.2em;
+}
+.inputID:focus, .inputPassword:focus{
+	padding-left: 4%;
+}
+.inputID:not(:placeholder-shown), .inputPassword:not(:placeholder-shown){
+	padding-left: 4%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textError
+{
+	position: relative;
+	/*visibility: hidden;*/
+	justify-items: center;
+
+	font-family: 'Mulish';
+	font-size: 0.8em;
+	font-weight: 600;
+	font-style: normal;
+	color: red;
+
+	background-color: transparent;
+
+	margin-top: 4%;
+	margin-bottom: -7%;
+}
+
+/* LEFT */
+section .left {
+    display: flex;
+    align-items: end;
+    width: 50%;
+    margin: 0 0 ;
+    height: 100%;
+}
+section .left img {
+    height: 500px;
+    z-index: 2;
+    margin-left: 0;
+}
+section .right .hidden {
+    display:none;
+    position: absolute;
+    bottom:0px;
+    height: 250px;
+}
+
+@media(max-width:1250px){
+    section .left img {
+        height: 380px;
+    }
+}
+@media(max-width:1200px){
+    .right {
+        width: 70%;
+    }
+    section .left {
+        width: 30%;
+    }
+    section .left img {
+        height: 350px;
+    }
+}
+@media(max-width:1000px){
+    section .left img {
+        height: 200px;
+    }
+}
+@media(max-width:680px){
+    section .left {
+        display: none;
+    }
+    .right {
+        width: 100%;
+    }
+    .inputID, .inputPassword {
+        margin-top: 40px;
+    }
+    section .right .hidden {
+        display:initial;
+    }
+}
+@media(max-width:545px){
+    section .left img {
+        height: 250px;
+    }
+    .right h1 {
+        font-size: 1.5em;
+        margin-top: 40%;
+    }
+    .inputID, .inputPassword {
+        height: 70px;
+        width: 250px;
+    }
+}
+

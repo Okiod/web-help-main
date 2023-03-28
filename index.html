@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Page d'accueil."/>
+    <title>Accueil Boostage</title>
+    <!-- FONT FAMILY LINK -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&display=swap">
+    <!-- ICON -->
+    <link rel="shortcut icon" href="./assets/img/logo.ico" alt="IconImg"/>
+    <!-- CSS -->
+	<link rel="stylesheet" href="./assets/ind.css">
+    <link rel="stylesheet" href="./assets/footer.css">
+
+    <!-- PWA -->
+    <meta name="theme-color" content="#ff0000"/>
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        //if browser support service worker
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js');
+        };
+      </script>
+</head>
+<body>
+    <header>
+        <!-- HAUT DE PAGE (NAV + LOGO) -->
+        <nav class="navbar">
+            <a href="./index.html"><img src="./assets/img/logo.png" alt="LogoPic" class="logo"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a class="main" href="./index.html">Accueil</a></li>
+                    <li><a href="./connexion.php">Connectez vous</a></li>
+                    <li><a href="./contact-us.html">Contactez nous!</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <img src="./assets/img/Hamburger_icon.svg.png" alt="menu burger"
+            class="menu-burger">
+        </nav>
+    </header>
+    <!-- HAUT RECTANGLE -->
+    <section class="haut-rectangle">
+        <!-- CONTENEUR -->
+        <div class="conteneur">
+            <div class="left">
+                <h1>Booste ta recherche de stage</h1>
+                <p>Boostage est un site web
+                    permettant l'accès rapide et efficace
+                    d'offre de stage. Mettre en lien des entreprises
+                    et de jeunes étudiants de différents domaine est notre
+                    priorité. <br> <br>
+                    Votre stage est peut être à un clique !
+                </p>
+                <a href="./connexion.php"><button>Connectez vous !</button></a>
+            </div>
+            <div class="right">
+                <img src="./assets/img/pic3.png" alt="pic3">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="milieu">
+        <div class="conteneur2">
+            <div class="h">
+                <h1>Nous permettons aux étudiants de faciliter la recherche la recherche de stage
+                     avec la collaboration de plusieurs entreprises.
+                </h1>
+            </div>
+            <div class="m">
+                <div class="haut">
+                    <img src="./assets/img/index1.png" alt="">
+                    <h2>Développement</h2>
+                    <p>Le développeur informatique conçoit et développe des logiciels en utilisant 
+                        des languages de programmation.
+                    </p>
+                </div>
+                <div class="mil">
+                    <img src="./assets/img/index2.png" alt="">
+                    <h2>Cyber-sécurité</h2>
+                    <p>La cybersécurité vise à protéger les systèmes informatiques et les données
+                        sensibles contre les attaques en ligne.
+                    </p>
+                </div>
+                <div class="bas">
+                    <img src="./assets/img/index3.png" alt="">
+                    <h2>Data scientists</h2>
+                    <p>Les data scientists utilisent des algorithmes et des techniques statistiques
+                        pour extraire des insights précieux des données afin 
+                    </p>
+                </div>
+            </div>
+            <div class="b">
+                <div class="haut">
+                    <img src="./assets/img/index4.png" alt="">
+                    <h2>Robotique</h2>
+                    <p>La robotique est une discipline qui se concentre sur la conception, 
+                        la construction, l'opération et l'application de robots pour automatiser 
+                        diverses tâches.
+                    </p>
+                </div>
+                <div class="mil">
+                    <img src="./assets/img/index5.png" alt="">
+                    <h2>IA</h2>
+                    <p>L'IA développe des systèmes informatiques pour simuler 
+                        l'intelligence humaine.
+                    </p>
+                </div>
+                <div class="bas">
+                    <img src="./assets/img/index6.png" alt="">
+                    <h2>Architecte réseau</h2>
+                    <p>L'architecte réseau est un expert en technologie des réseaux qui planifie, 
+                        conçoit et déploie des solutions de réseau.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="bottom">
+        <div class="top">
+            <div>
+                <img src="./assets/img/index7.png" alt="">
+            </div>
+            <div>
+                <p>Boostage est un site web dédié à aider les étudiants à trouver le stage parfait pour 
+                    leur développement professionnel. Le site propose une variété d'opportunités de stage 
+                    pour les étudiants de toutes les disciplines, offrant ainsi une plateforme facile à utiliser 
+                    pour découvrir des opportunités dans leur domaine d'intérêt.
+                    Les étudiants peuvent utiliser les fonctionnalités de recherche avancée de Boostage 
+                    pour filtrer les stages selon leurs critères, comme le lieu, la durée et le domaine 
+                    d'activité. En outre, le site propose des outils pour aider les étudiants à se préparer 
+                    à leur recherche de stage, tels que des conseils pour la rédaction de CV et de lettres 
+                    de motivation.</p>
+                </div>
+            </div>
+        <div class="bot">
+            <div>
+                <p>En somme, Boostage est un site web idéal pour les étudiants qui cherchent à trouver le 
+                    stage parfait pour développer leurs compétences et leur carrière. Avec une interface 
+                    facile à utiliser et une vaste sélection de stages, Boostage est un outil précieux pour 
+                    les étudiants qui cherchent à élargir leurs horizons professionnels.</p>
+                </div>
+                <div>
+                    <img src="./assets/img/index8.png" alt="">
+                </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="sec4">
+        <div class="cont">
+            <h1>Envie de trouver un stage ?</h1>
+            <p>Prends le contrôle de ta scolarité.<br>
+                Découvre de nouveaux métiers !</p>
+                <a href="./connexion.php">
+                    <button>Connectez vous</button>
+                </a>
+        </div>
+    </section>
+    <footer class="position">
+        <li>
+            <a href="#" class="hyperlinkFooter">
+                Mentions légales
+            </a>
+        </li>
+        <label class="barreFooter">
+            |
+        </label>
+        <li>
+            <a href="#" class="hyperlinkFooter">
+                Politique de confidentialité
+            </a>
+        </li>
+        <label class="barreFooter">
+            |
+        </label>
+        <li>
+            <a href="#" class="hyperlinkFooter">
+                © Copyright 2023
+            </a>
+        </li>
+    </footer>
+</body>
+    <script>
+        const menuHamburger = document.querySelector(".menu-burger")
+        const navLinks = document.querySelector(".nav-links")
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>

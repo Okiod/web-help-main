@@ -1,0 +1,44 @@
+.green-rect, .green-rect2 {
+    background-color: #73ba9b74;
+    margin: auto 5% auto 5%;
+    height: 3px;
+}
+.green-rect2 {
+    margin-top: 18px;
+}
+.sec-head {
+    height:auto;
+}
+.div{
+    border-color: black;
+    border: 10px;
+}
+.up {
+    margin-top: 18px;
+    color:green;
+}
+.bismillah {
+    margin-top: 10px;
+}
+.show-intersh {
+    border:solid;
+    border-radius: 15px;
+    margin-top: 18px;
+}
+.show-intersh p{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.show-intersh h3 {
+    margin-left: 10px;
+}
+.show-intersh img {
+    width: 50px;
+}
+.show-intersh a {
+    display: flex;
+    justify-content: center;
+}
+.show-intersh span {
+    font-weight: bold;
+}
