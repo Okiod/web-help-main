@@ -104,9 +104,9 @@ echo "</table>";
 
 
 <br>
-<footer><button> <a href="http://./étudiant/prjv1phpdel.php">Cliquez ici pour supprimer un étudiant</button>
-        <button> <a href="http://./étudiant/prjv1phpsee.php">Cliquez ici pour voir les étudiants</button>
-        <button> <a href="http://./étudiant/prjv1phpup.php">Cliquez ici pour modifier un étudiant</button>
+<footer><button> <a href="http:./étudiant/prjv1phpdel.php">Cliquez ici pour supprimer un étudiant</button>
+        <button> <a href="http:./étudiant/prjv1phpsee.php">Cliquez ici pour voir les étudiants</button>
+        <button> <a href="http:./étudiant/prjv1phpup.php">Cliquez ici pour modifier un étudiant</button>
 
 
 </footer>          

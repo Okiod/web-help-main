@@ -34,7 +34,7 @@ Ce bouton va permettre de supprimer la superglobal **`$_SESSION`** par le script
     $_SESSION = array();//Ecrase tableau de session 
     session_unset(); //Detruit toutes les variables de la session en cours
     session_destroy();//Destruit la session en cours
-    header("Location: //./connexion.php"); // redirige l'utilisateur
+    header("Location: ./connexion.php"); // redirige l'utilisateur
 ?>
 ```
 
@@ -45,7 +45,7 @@ Toujours concernant cette superglobal, avant chaque entré sur une page internet
     session_start();
 
     if(!isset($_SESSION['ID'])){
-        header("Location: //./connexion.php"); // redirige l'utilisateur
+        header("Location: ./connexion.php"); // redirige l'utilisateur
     }
     $server = 'localhost';
 	$username = 'root';
@@ -61,12 +61,12 @@ Toujours concernant cette superglobal, avant chaque entré sur une page internet
         $recipes = $recipesStatement->fetchAll();
 		if($recipesStatement->rowCount() != 1){
             $conn=null;
-            header("Location: //./connexion.php"); // redirige l'utilisateur
+            header("Location: ./connexion.php"); // redirige l'utilisateur
         }
         $conn=null;
     }
     catch(PDOException $e){
-        header("Location: //./connexion.php"); // redirige l'utilisateur;
+        header("Location: ./connexion.php"); // redirige l'utilisateur;
     }
 ?>
 ```

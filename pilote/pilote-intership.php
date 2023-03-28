@@ -3,7 +3,7 @@
     session_start();
 
     if(!isset($_SESSION['ID'])){
-        header("Location: //./connexion.php"); // redirige l'utilisateur
+        header("Location: ./connexion.php"); // redirige l'utilisateur
     }
     $server = 'localhost';
 	$username = 'root';
@@ -19,12 +19,12 @@
         $recipes = $recipesStatement->fetchAll();
 		if($recipesStatement->rowCount() != 1){
             $conn=null;
-            header("Location: //./connexion.php"); // redirige l'utilisateur
+            header("Location: ./connexion.php"); // redirige l'utilisateur
         }
         $conn=null;
     }
     catch(PDOException $e){
-        header("Location: //./connexion.php"); // redirige l'utilisateur;
+        header("Location: ./connexion.php"); // redirige l'utilisateur;
     }
 ?>
 

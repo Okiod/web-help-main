@@ -3,7 +3,7 @@
     session_start();
 
     if(!isset($_SESSION['ID'])){
-        header("Location: //./connexion.php"); // redirige l'utilisateur
+        header("Location: ./connexion.php"); // redirige l'utilisateur
     }
     $server = 'localhost';
 	$username = 'root';
@@ -21,7 +21,7 @@
 			$idadmin = $recipe['admin'];
 		}
         if($idadmin!=1){
-            header("Location: //./connexion.php"); // redirige l'utilisateur
+            header("Location: ./connexion.php"); // redirige l'utilisateur
             $conn=null;
         }
         $conn=null;

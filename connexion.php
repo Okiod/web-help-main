@@ -66,7 +66,7 @@
 										// ADMIN DETECTE //
 										if($var_admin == 1){ 
 											$conn=null;
-											header('Location: //./admin/admin.php');
+											header('Location: ./admin/admin.php');
 											return; }
 										// EST-CE UN TUTEUR ?
 										else{
@@ -90,7 +90,7 @@
 											// TUTEUR DETECTE //
 											else{ 
 												$conn=null;
-												header('Location: //./pilote/pilote.php');
+												header('Location: ./pilote/pilote.php');
 											}
 										}
 									}
